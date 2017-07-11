@@ -17,8 +17,3 @@ RUN apt-get update && apt-get install -y \
 
 # General dev tools
 RUN apt-get install -y git
-
-# Latest versions of python tools via pip
-RUN pip install --upgrade pip \
-                          virtualenv \
-                          requests
