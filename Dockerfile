@@ -12,13 +12,8 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     libyaml-dev \
     libffi-dev \
-    python3-pip
-
-RUN apt-get install build-essential \
-                    libssl-dev \
-                     libffi-dev \
-                      python-dev \
-                      python3-venv
+    python3-pip \
+    python3-venv
 
 # General dev tools
 RUN apt-get install -y git
